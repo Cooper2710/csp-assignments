@@ -1,1 +1,2 @@
-print("this is where i do my work")
+name=input("What is your name?: ")
+print ("hello,",name)
