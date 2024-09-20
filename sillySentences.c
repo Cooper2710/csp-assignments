@@ -10,11 +10,11 @@ int main(void){
     printf("Name an animal:");
     scanf("%s", animal);
     printf("Name a place:");
-    scanf(place, sizeof(place), stdin);
+    scanf("%s", place);
     printf("Name a verb:");
-    scanf(verb, sizeof(verb), stdin);
+    scanf("%s", verb);
     strcat(sentence, animal);
-    strcat(sentence, "went to the ");
+    strcat(sentence," went to the ");
     strcat(sentence, place);
     strcat(sentence, " and ");
     strcat(sentence, verb);
