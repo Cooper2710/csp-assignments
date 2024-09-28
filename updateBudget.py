@@ -3,11 +3,12 @@ print("This is a finacial calculator")
 def pain(sentence):
     sent=float(input(f"How much is your {sentence}: \n"))
     return sent
+    
 income = pain
 rent = pain
 utilities = pain
 groceries = pain
-transp= pain
+transp = 
 
 
 
