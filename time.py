@@ -1,0 +1,6 @@
+import datetime
+
+currenttime = datetime.datetime.now()
+
+print(currenttime.hour)
+if 
