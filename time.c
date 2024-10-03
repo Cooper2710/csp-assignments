@@ -5,13 +5,13 @@ int hour;
 
 int main ()
 {
-    time_t rawtime;
-    struct tm * timeinfo;
+    time_t now;
+    struct tm * now_tm;
 
-    time (&rawtime);
-    timeinfo = localtime (&rawtime);
-    printf("Current local time and date: %s", asctime(timeinfo));
-    printf("tell me the hour in millitary time\n");
+    now=time(NULL);
+    now_tm = localtime(&now);
+    hour = now_tm->tm_hour;
+    
     scanf("%d", &hour);
     if (hour < 12){
         printf("good morning\n");
