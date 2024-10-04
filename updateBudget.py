@@ -1,13 +1,9 @@
 print("This is a finacial calculator")
 
-def pain(sentence):
-    sent=float(input(f"How much is your {sentence}: \n"))
-    return pain
-income = pain
-rent = pain
-utilities = pain
-groceries = pain
-transp = pain
+def user_inputs(costs):
+    fees=input("what does your %s cost", costs)
+    return fees
+rent=user_inputs("rent")
     
 
 
