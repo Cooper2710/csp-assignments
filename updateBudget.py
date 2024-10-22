@@ -26,8 +26,8 @@ def percent(type, ammount):
     return(f"your {type} is {per}% income")
 
 
-print(percent("rent", rent))
-print(percent("utilities", utilities))
-print(percent("groceries", groceries))
-print(percent("transportation", transp))
-print(percent("expenses", expenses))
+percent("rent", rent)
+percent("utilities", utilities)
+percent("groceries", groceries)
+percent("transportation", transp)
+percent("expenses", expenses)
